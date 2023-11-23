@@ -794,6 +794,12 @@ body {
   margin-bottom: 15px;
 }
 
+@media (width >= 768px) {
+  .footer__line {
+    margin-bottom: 30px;
+  }
+}
+
 .social {
   justify-content: center;
   margin-bottom: 30px;
@@ -840,7 +846,24 @@ body {
 
 .copyright {
   color: var(--color-footer-copyright);
+  margin-bottom: 22px;
   font: 14px / 20px Arial, sans-serif;
+}
+
+@media (width >= 768px) {
+  .copyright {
+    margin-bottom: 30px;
+  }
+}
+
+@media (width >= 1000px) {
+  .copyright {
+    margin-bottom: 35px;
+  }
+}
+
+.copyright p {
+  margin: 0;
 }
 
 /*# sourceMappingURL=components.d2908973.css.map */
