@@ -11,6 +11,10 @@
     margin-bottom: 15px;
     
     background-color: var(--color-footer-line);
+
+    @media @screen-gt-s {
+      margin-bottom: 30px;
+    }
   }
 }
 
@@ -53,6 +57,19 @@
 }
 
 .copyright {
+  margin-bottom: 22px;
   color: var(--color-footer-copyright);
   font: 14px/20px Arial, sans-serif;
+
+  @media @screen-gt-s {
+    margin-bottom: 30px;
+  }
+
+  @media @screen-gt-m {
+    margin-bottom: 35px;
+  }
+
+  & p {
+    margin: 0;
+  }
 }
