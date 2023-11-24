@@ -1,0 +1,28 @@
+.footer {
+  --color-footer-copyright: #999999;
+  --color-footer-line: #666666;
+
+  padding-top: 30px;
+  background-color: var(--color-dark);
+
+  &__line {
+    width: 100%;
+    height: 1px;
+    margin-bottom: 15px;
+    
+    background-color: var(--color-footer-line);
+
+    @media @screen-gt-s {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+.logo-monochrome {
+  display: none;
+
+  @media @screen-gt-m {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
